@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+.ageCalc{
+	background-color:#D0D3D4;
+	height:620px;
+}
+.ageCalc-content{
+	margin:0 auto;
+	text-align:center; 
+	padding-top:50px;
+}
+h2{
+	color:#2471A3;
+	text-transform:uppercase;
+}
+.btn{
+	display:flex;
+	justify-content:center;
+	text-align:center;
+}
+.btn button{
+	border:none;
+	background-color:#fff;
+	margin:30px 0;
+	padding:10px 20px;
+	font-size:20px;
+	font-weight:bold;
+	transition:ease 0.3s all;
+}
+.btn button:hover{
+	background-color:#2471A3;
+}
+input{
+	border:none;
+}
+#age{
+	text-align:center;
+	font-size:25px;
+	padding:20px 0;
+	word-spacing:5px;
+}

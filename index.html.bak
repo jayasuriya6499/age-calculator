@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+    <title> Age Calculator Using Js</title>
+	      <!---- meta link ------>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width , initial-scale=1.0">
+	      <!----- bootstrap link ---->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	      <!---- css link ----->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+     
+	  <section class="ageCalc">
+	     <div class="ageCalc-sec">
+		 
+		   <div class="ageCalc-content">
+		   
+					<div class="age-title">
+					   <h2> Age Calculator </h2>
+					</div>
+					
+						<!-- date -->
+					<div class="date-sec">
+					   <p class="pt-3 fs-5 fw-bold"> Date </p>
+					   <input type="text" name="date" id="date">
+					</div>
+					
+					  <!-- month -->
+					<div class="month-sec">
+					   <p class="pt-3"> Month </p>
+					   <input type="text" name="month" id="month">
+					</div>
+					
+					   <!-- year -->
+					<div class="year-sec">
+					   <p class="pt-3"> Year </p>
+					   <input type="text" name="year" id="year">
+					</div>
+			</div>
+			 
+			
+			<div class="btn">
+			   <button id="button" name="button" onclick="ageCalc()"> Submit </button>
+			</div>
+			
+			<div id="age"> </div>
+		 
+		 
+		 
+		 
+		 
+		 
+		 </div>
+	  </section>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+        <!---- script link --->
+ <script src="js/main.js"></script>
+</body>
+</html>
